@@ -1,5 +1,7 @@
 *{
     background-color: rosybrown;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 }
 h1{
     font-weight: 900;
@@ -7,5 +9,24 @@ h1{
     color: rgb(255, 255, 255);
     margin-top: 50px;
     text-align: center;
-   
+    text-shadow:  2px 2px 4px rgb(145, 74, 98) ;
+  
 }
+.add{
+    color: rgb(145, 74, 98);
+    font-size: 3em;
+    margin-left: 40px;
+    cursor: pointer;
+}
+header{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+ h2{
+    color: rgb(109, 56, 73);
+ }
+ footer{
+    text-align: center;
+    margin-top: 370px;
+ }
