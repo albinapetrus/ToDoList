@@ -28,5 +28,9 @@ header{
  }
  footer{
     text-align: center;
-    margin-top: 370px;
+    margin-top: 300px;
+ }
+ .empty{
+    text-align: center;
+    margin-top: 150px;
  }
