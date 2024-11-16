@@ -34,3 +34,6 @@ header{
     text-align: center;
     margin-top: 150px;
  }
+ .add:hover{
+    color: rgb(13, 255, 174);
+ }
