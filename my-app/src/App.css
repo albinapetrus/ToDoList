@@ -1,0 +1,106 @@
+*{
+    background-color: rosybrown;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    text-align: center;
+    text-shadow:  2px 2px 4px rgb(145, 74, 98) ;
+  
+}
+.add{
+    color: rgb(145, 74, 98);
+    font-size: 3em;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.headerlogo{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size:30px;
+    margin-left: 30px;
+    gap: 70%;
+    text-shadow:  2px 2px 4px rgb(145, 74, 98) ;
+}
+
+.icons-section{
+    margin-left: 55%;
+}
+header{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+ h2{
+    color: rgb(109, 56, 73);
+ }
+ footer{
+    text-align: center;
+    margin-top: 5%;
+ }
+ .empty{
+    text-align: center;
+    margin-top: 50px;
+ }
+ .add:hover{
+    color: rgb(13, 255, 174);
+ }
+.input-section{
+    margin-top: 35px;
+    margin-left: 44%;
+}
+.input {
+    width: 180px;
+    height:45px;
+    background: aliceblue;
+    border: 1px solid black; /* Вказуємо товщину кордону */
+    font-size: 20px;
+    box-sizing: border-box; /* Ураховуємо обводку в загальну висоту та ширину */
+}
+
+.okbut {
+    margin-left: 10px;
+    height: 30px; /* Встановлюємо однакову висоту */
+    width: 30px;
+    background: green;
+    color: aliceblue;
+    border: 1px solid black; /* Вказуємо товщину кордону */
+    box-sizing: border-box; /* Ураховуємо обводку в загальну висоту та ширину */
+}
+
+
+.box{
+    positon: relative;
+    display: inline-block;
+}
+.add1{
+    position: absolute;
+    transform: translateX(-50%) ;
+    opacity: 0;
+    visibility: hidden;
+    /*margin-top: 65px;
+    margin-right: 25px;*/
+    color: black;
+    background: aliceblue;
+    border: 1.5px solid black;
+    padding: 2px;
+}
+
+.box:hover .add1{
+opacity: 1;
+    visibility: visible;
+}
+.to-do{
+   margin-left: 44%;
+
+}
+.list-item{
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
